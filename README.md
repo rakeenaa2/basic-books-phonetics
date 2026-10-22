@@ -32,6 +32,7 @@ basic-books-phonetics/
 
 | Directory | Language / Script | Books |
 | :--- | :--- | :--- |
+| [`arabic-ipa-basic/`](./arabic-ipa-basic/) | Arabic (العربية) | [`childrens-book.typ`](./arabic-ipa-basic/childrens-book.typ) · [`parents-guide.typ`](./arabic-ipa-basic/parents-guide.typ) |
 | [`bengali-ipa-basic/`](./bengali-ipa-basic/) | Bengali (বাংলা) | [`childrens-book.typ`](./bengali-ipa-basic/childrens-book.typ) · [`parents-guide.typ`](./bengali-ipa-basic/parents-guide.typ) |
 | [`ukrainian-ipa-basic/`](./ukrainian-ipa-basic/) | Ukrainian (Українська) | [`childrens-book.typ`](./ukrainian-ipa-basic/childrens-book.typ) · [`parents-guide.typ`](./ukrainian-ipa-basic/parents-guide.typ) |
 

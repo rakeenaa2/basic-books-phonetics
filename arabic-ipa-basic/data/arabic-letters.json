@@ -1,0 +1,130 @@
+{
+  "book_meta": {
+    "title_ar": "الأبجدية العربية",
+    "subtitle_child": "My First Arabic IPA Sound Book",
+    "subtitle_parent": "Parents' Articulatory Phonetics & Coaching Guide",
+    "dialect": "Modern Standard Arabic (العربية الفصحى)",
+    "pilot_focus": "ص (/sˤ/)"
+  },
+  "ipa_key": [
+    {
+      "symbol": "s",
+      "name": "Alveolar Sibilant Base",
+      "kid_cue": "Crisp Front 'Sss' Hiss",
+      "kid_desc": "Place your tongue tip right behind your top front teeth and blow a sharp 'ssss' stream!",
+      "parent_desc": "A voiceless denti-alveolar sibilant fricative /s/, channeling high-velocity air against the upper incisors."
+    },
+    {
+      "symbol": "ˤ",
+      "name": "Pharyngealization (Tafkhīm)",
+      "kid_cue": "Deep Hollow-Spoon Tongue",
+      "kid_desc": "Scoop the middle of your tongue down like a spoon and pull the back of your tongue deep so the hiss booms!",
+      "parent_desc": "Superscript [ˤ] (U+02E4) marks secondary pharyngeal/upper-uvular tongue-root retraction that lowers F2 resonance."
+    },
+    {
+      "symbol": "uː",
+      "name": "Long Close Back Vowel",
+      "kid_cue": "Long Rounded 'Oooo'",
+      "kid_desc": "Round your lips into a tight circle and hold a smooth, steady 'oooo' for two full beats!",
+      "parent_desc": "A long close back rounded vowel /uː/ marked by the triangular length colon (ː), held twice as long as short /u/."
+    },
+    {
+      "symbol": "a",
+      "name": "Open Vowel (Emphatic Backed)",
+      "kid_cue": "Warm Open 'Ah'",
+      "kid_desc": "Drop your jaw gently to end the word on a clear, sunny 'ah' sound!",
+      "parent_desc": "Short open vowel /a/ (realized as backed [ɑ] next to emphatic consonants like /sˤ/, and central [a] elsewhere)."
+    }
+  ],
+  "letters": [
+    {
+      "id": "sad",
+      "letter": "ص",
+      "category": "cons",
+      "category_label_ar": "حرف مفخم",
+      "category_label_en": "Consonant · Emphatic (Pharyngealized) Sibilant",
+      "ipa": "sˤ",
+      "ipa_base": "s",
+      "ipa_modifier": "ˤ",
+      "word": "صُورَة",
+      "word_ipa": "sˤuːra",
+      "word_syllables_ipa": ["sˤuː", "ra"],
+      "gloss": "Picture",
+      "emoji": "🖼️",
+      "sound_recipe": [
+        {
+          "part": "s",
+          "label": "1. Front Tooth-Ridge Hiss",
+          "detail": "Set your tongue blade right behind your top front teeth to start a narrow 'sss' air groove."
+        },
+        {
+          "part": "ˤ",
+          "label": "2. Hollow-Spoon Tongue Drop",
+          "detail": "Hollow the middle of your tongue down like a spoon while pulling the back of your tongue toward your throat."
+        },
+        {
+          "part": "sˤ",
+          "label": "3. Heavy Resonant Boom",
+          "detail": "Blow the 'sss' air across that big hollow mouth cave so it sounds deep and dark!"
+        }
+      ],
+      "articulation": {
+        "voicing": "Voiceless (vocal cords remain open and unvibrating)",
+        "place": "Denti-alveolar primary groove + Pharyngealized (velar-pharyngeal) secondary retraction",
+        "manner": "Emphatic / Pharyngealized Sibilant Fricative (تفخيم / إطباق)",
+        "airflow": "Oral, central high-velocity sibilant jet resonating across a concave dorsal cavity"
+      },
+      "word_breakdown": [
+        {
+          "grapheme": "صُ",
+          "ipa": "/sˤ/",
+          "role": "Onset (Emphatic Sibilant + Ḍamma)",
+          "note": "Initial form of ص with a concave tongue dorsum and retracted root (ˤ), followed by short lip-rounding transition."
+        },
+        {
+          "grapheme": "و",
+          "ipa": "/uː/",
+          "role": "First Syllable Nucleus (Long Vowel Madd)",
+          "note": "Wāw acts as a long vowel letter extending the ḍamma into a two-mora pure back rounded /uː/."
+        },
+        {
+          "grapheme": "رَ",
+          "ipa": "/r/",
+          "role": "Second Syllable Onset (Alveolar Tap/Trill)",
+          "note": "Crisp apical alveolar tap/trill /r/ (never an English retroflex approximant [ɹ]), carrying a fatḥa vowel sign."
+        },
+        {
+          "grapheme": "ة",
+          "ipa": "/a/",
+          "role": "Second Syllable Nucleus (Tāʾ Marbūṭa in Pause)",
+          "note": "In standard pausal pronunciation (and everyday kid speech), final ة opens into a clear, relaxed /a/."
+        }
+      ],
+      "mouth_placement_steps": [
+        "Position the tip and blade of the tongue just behind the upper front teeth (denti-alveolar zone) to form a narrow central groove for '/s/'.",
+        "Simultaneously depress the middle body (dorsum) of the tongue into a concave 'spoon' shape while retracting the tongue root backward toward the upper pharyngeal wall ('ˤ').",
+        "Keep the lips neutral (avoid rounding them into a 'w' shape for the consonant itself) and drive a steady, voiceless airstream through the groove to produce the dark, low-pitched emphatic '/sˤ/'."
+      ],
+      "coaching_game": {
+        "title": "The Tiny Snake vs. Giant Cave Echo Game",
+        "setup": "Draw a small flat snake for plain س (/s/) and a big hollow cave for emphatic ص (/sˤ/).",
+        "action": "Have your child hiss like a flat 'tiny snake' ('sa-sa-sa' /sa/) with a smiling mouth, then hollow their tongue down like a big spoon to make the 'giant cave hiss' ('ṢA-ṢA-ṢA' [sˤɑ]) before saying صُورَة (/sˤuːra/)!",
+        "success_cue": "You should hear the pitch of the hiss drop noticeably lower on /sˤ/—and if they put 'ah' after it, it automatically sounds like deep 'saw/father' [sˤɑ] rather than flat 'sat' [sæ]!"
+      },
+      "common_pitfalls": [
+        {
+          "issue": "Merging Emphatic ص (/sˤ/) with Plain س (/s/)",
+          "fix": "English has only one /s/ phoneme, so learners often pronounce ص identically to س. Emphasize the concave 'spoon tongue' and retracted tongue root (ˤ) so the oral cavity enlarges and lowers the acoustic frequency of the hiss."
+        },
+        {
+          "issue": "Rounding the Lips ([sʷ]) Instead of Retracting the Tongue ([sˤ])",
+          "fix": "Children frequently try to make ص sound 'heavy' by puckering their lips like an English 'sw'. Gently check that the deep sound comes from dropping and pulling the back of the tongue inside the mouth, before the lips round for the following /uː/."
+        },
+        {
+          "issue": "Using an English Retroflex [ɹ] for ر in the Second Syllable (/ra/)",
+          "fix": "In صُورَة (/sˤuːra/), the letter ر (/r/) requires a quick flick/tap of the tongue tip against the alveolar ridge—never curl the tongue back into an American English 'r'."
+        }
+      ]
+    }
+  ]
+}
