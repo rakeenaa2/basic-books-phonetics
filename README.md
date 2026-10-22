@@ -33,6 +33,7 @@ basic-books-phonetics/
 | Directory | Language / Script | Books |
 | :--- | :--- | :--- |
 | [`bengali-ipa-basic/`](./bengali-ipa-basic/) | Bengali (বাংলা) | [`childrens-book.typ`](./bengali-ipa-basic/childrens-book.typ) · [`parents-guide.typ`](./bengali-ipa-basic/parents-guide.typ) |
+| [`ukrainian-ipa-basic/`](./ukrainian-ipa-basic/) | Ukrainian (Українська) | [`childrens-book.typ`](./ukrainian-ipa-basic/childrens-book.typ) · [`parents-guide.typ`](./ukrainian-ipa-basic/parents-guide.typ) |
 
 ## Building PDFs
 

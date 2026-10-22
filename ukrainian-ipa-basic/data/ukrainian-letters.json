@@ -1,0 +1,130 @@
+{
+  "book_meta": {
+    "title_uk": "Українська абетка",
+    "subtitle_child": "My First Ukrainian IPA Sound Book",
+    "subtitle_parent": "Parents' Articulatory Phonetics & Coaching Guide",
+    "dialect": "Standard Ukrainian (Літературна українська мова)",
+    "pilot_focus": "Щ (/ʃt͡ʃ/)"
+  },
+  "ipa_key": [
+    {
+      "symbol": "ʃ",
+      "name": "Postalveolar Fricative",
+      "kid_cue": "Hushing Train 'Sh'",
+      "kid_desc": "Lift your tongue near the bumpy roof of your mouth and blow a steady 'shhh' wind!",
+      "parent_desc": "A voiceless postalveolar fricative /ʃ/, produced by channeling air through a narrow groove behind the alveolar ridge."
+    },
+    {
+      "symbol": "t͡ʃ",
+      "name": "Tied Postalveolar Affricate",
+      "kid_cue": "Crisp 'Ch' Catch",
+      "kid_desc": "Tap the roof of your mouth to briefly catch the 'shhh' wind and pop it into a 'ch' sound!",
+      "parent_desc": "The tie-bar above /t͡ʃ/ links /t/ (stop closure) and /ʃ/ (postalveolar release) into a single crisp affricate."
+    },
+    {
+      "symbol": "u",
+      "name": "Close Back Rounded Vowel",
+      "kid_cue": "Rounded Lips 'Oo'",
+      "kid_desc": "Round your lips like a little fish and say a smooth, pure 'ooo'!",
+      "parent_desc": "A pure close back rounded vowel /u/ without the English off-glide [ʊw]."
+    },
+    {
+      "symbol": "a",
+      "name": "Open Central-Back Vowel",
+      "kid_cue": "Bright Open 'Ah'",
+      "kid_desc": "Drop your jaw open wide and sing a clear, sunny 'aaah'!",
+      "parent_desc": "An open unrounded vowel /a/, brighter than English 'father' and never reduced to schwa [ə] when unstressed."
+    }
+  ],
+  "letters": [
+    {
+      "id": "shcha",
+      "letter": "Щ",
+      "category": "cons",
+      "category_label_uk": "Приголосний",
+      "category_label_en": "Consonant · Compound Sibilant Cluster (/ʃ/ + /t͡ʃ/)",
+      "ipa": "ʃt͡ʃ",
+      "ipa_base": "ʃ",
+      "ipa_modifier": "t͡ʃ",
+      "word": "щука",
+      "word_ipa": "ʃt͡ʃuka",
+      "word_syllables_ipa": ["ʃt͡ʃu", "ka"],
+      "gloss": "Pike (Fish)",
+      "emoji": "🐟",
+      "sound_recipe": [
+        {
+          "part": "ʃ",
+          "label": "1. Hushing Wind Channel",
+          "detail": "Start blowing a steady 'shhh' stream behind your top gum ridge."
+        },
+        {
+          "part": "t",
+          "label": "2. Quick Tongue-Roof Seal",
+          "detail": "Without stopping your breath, tap your tongue blade up to briefly block the channel."
+        },
+        {
+          "part": "t͡ʃ",
+          "label": "3. Crisp 'Ch' Release",
+          "detail": "Pop the seal right back open into a sharp 'ch' (like 'freSH CHeese')!"
+        }
+      ],
+      "articulation": {
+        "voicing": "Voiceless throughout (vocal cords remain open and silent)",
+        "place": "Postalveolar / Laminal Palato-alveolar (Ш + Ч sequence)",
+        "manner": "Fricative /ʃ/ + Affricate /t͡ʃ/ Compound Cluster (Щ = Ш + Ч)",
+        "airflow": "Oral, central fricative stream interrupted by brief stop closure and affricate release"
+      },
+      "word_breakdown": [
+        {
+          "grapheme": "щ",
+          "ipa": "/ʃt͡ʃ/",
+          "role": "Onset (Fricative + Affricate Cluster)",
+          "note": "One Cyrillic letter representing two distinct postalveolar consonants pronounced smoothly together: /ʃ/ + /t͡ʃ/."
+        },
+        {
+          "grapheme": "у",
+          "ipa": "/u/",
+          "role": "First Syllable Nucleus (Close Back Vowel)",
+          "note": "Lips round immediately during the release of /t͡ʃ/ into a pure, steady /u/."
+        },
+        {
+          "grapheme": "к",
+          "ipa": "/k/",
+          "role": "Second Syllable Onset (Velar Plosive)",
+          "note": "Crisp, unaspirated voiceless velar stop /k/ (zero puff of air, unlike English initial 'k')."
+        },
+        {
+          "grapheme": "а",
+          "ipa": "/a/",
+          "role": "Second Syllable Nucleus (Open Vowel)",
+          "note": "Retains full, clear open /a/ quality even in an unstressed final syllable."
+        }
+      ],
+      "mouth_placement_steps": [
+        "Raise the flat blade of the tongue toward the postalveolar ridge (just behind the upper gum ridge) to form a narrow channel and begin a voiceless hushing '/ʃ/' ('sh').",
+        "Mid-stream, press the tongue blade firmly up against the postalveolar ridge to create the complete stop seal ('/t/') of the affricate without taking a new breath.",
+        "Release the tongue seal immediately back into the postalveolar groove to produce a crisp '/t͡ʃ/' ('ch'), fusing '/ʃ/' + '/t͡ʃ/' into one seamless gesture."
+      ],
+      "coaching_game": {
+        "title": "The 'Fresh Cheese' Bridge Game",
+        "setup": "Write the English phrase 'freSH CHeese' on a card and underline the middle letters 'SH CH'.",
+        "action": "Have your child say 'fre-SH CH-eese' slowly three times, then whisper the outer parts until only the middle '/ʃt͡ʃ/' bridge remains, and finally launch straight into 'щука' (/ʃt͡ʃuka/)!",
+        "success_cue": "You should clearly hear BOTH the opening hush (/ʃ/) and the crisp tap-pop (/t͡ʃ/) inside the single letter Щ—never a single flat 'sh'!"
+      },
+      "common_pitfalls": [
+        {
+          "issue": "Pronouncing Щ as a Single Long Soft [ɕː] (Russian Interference)",
+          "fix": "In Russian, Щ is a single long palatalized fricative [ɕː]. In Standard Ukrainian, Щ is always a hard two-part sequence /ʃt͡ʃ/ (Ш + Ч). Make sure the tongue makes a full stop contact (/t/) in the middle of the sound."
+        },
+        {
+          "issue": "Dropping the Internal Stop Closure and Saying Plain [ʃ]",
+          "fix": "Young learners often simplify /ʃt͡ʃuka/ to [ʃuka]. Use the 'Fresh Cheese' cue so the child feels their tongue briefly tap the roof of the mouth to separate the opening /ʃ/ from the /t͡ʃ/ release."
+        },
+        {
+          "issue": "Aspirating the /k/ in the Second Syllable (/ka/)",
+          "fix": "English speakers naturally add a breathy puff [kʰ] to 'k'. Keep Ukrainian к (/k/) completely unaspirated and crisp before the final open vowel /a/."
+        }
+      ]
+    }
+  ]
+}
