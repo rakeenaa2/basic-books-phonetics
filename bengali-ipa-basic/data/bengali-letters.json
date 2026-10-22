@@ -1,0 +1,130 @@
+{
+  "book_meta": {
+    "title_bn": "বাংলা বর্ণমালা",
+    "subtitle_child": "My First Bengali IPA Sound Book",
+    "subtitle_parent": "Parents' Articulatory Phonetics & Coaching Guide",
+    "dialect": "Standard Bengali (Bangladesh & West Bengal)",
+    "pilot_focus": "ছ (/t͡ʃʰ/)"
+  },
+  "ipa_key": [
+    {
+      "symbol": "t͡ʃ",
+      "name": "Tied Affricate",
+      "kid_cue": "Stop + Hush Joined Together",
+      "kid_desc": "Start with your tongue stopping the air, then slide straight into a 'shh' train sound!",
+      "parent_desc": "The tie-bar above /t͡ʃ/ links /t/ (stop closure) and /ʃ/ (postalveolar release) into one single consonant sound."
+    },
+    {
+      "symbol": "ʰ",
+      "name": "Aspiration (Mahaprana)",
+      "kid_cue": "Big Puff of Air!",
+      "kid_desc": "Blow a strong gust of wind out of your mouth right as the sound pops!",
+      "parent_desc": "Superscript [ʰ] marks a strong voiceless burst of air immediately following the release of the consonant."
+    },
+    {
+      "symbol": "t̪",
+      "name": "Dental Stop",
+      "kid_cue": "Tongue Touches Teeth",
+      "kid_desc": "Press the flat tip of your tongue gently against the back of your top front teeth.",
+      "parent_desc": "The bridge diacritic beneath /t̪/ means the tongue tip touches the upper teeth, unlike English alveolar /t/."
+    },
+    {
+      "symbol": "a",
+      "name": "Open Central Vowel",
+      "kid_cue": "Wide Open Mouth 'Ah'",
+      "kid_desc": "Open your mouth wide like a yawn and say a bright 'aaah'!",
+      "parent_desc": "An open central-to-front unrounded vowel, similar to 'a' in 'father' but slightly brighter."
+    }
+  ],
+  "letters": [
+    {
+      "id": "chho",
+      "letter": "ছ",
+      "category": "cons",
+      "category_label_bn": "ব্যঞ্জনবর্ণ",
+      "category_label_en": "Consonant · Mahaprana (Aspirated)",
+      "ipa": "t͡ʃʰ",
+      "ipa_base": "t͡ʃ",
+      "ipa_modifier": "ʰ",
+      "word": "ছাতা",
+      "word_ipa": "t͡ʃʰat̪a",
+      "word_syllables_ipa": ["t͡ʃʰa", "t̪a"],
+      "gloss": "Umbrella",
+      "emoji": "☂️",
+      "sound_recipe": [
+        {
+          "part": "t",
+          "label": "1. Tongue Roof Seal",
+          "detail": "Press tongue blade behind the top gum ridge to block the air."
+        },
+        {
+          "part": "t͡ʃ",
+          "label": "2. Tied Hushing Release",
+          "detail": "Release the seal directly into a crisp 'sh' channel (linked by the top tie-bar)."
+        },
+        {
+          "part": "ʰ",
+          "label": "3. Big Wind Burst",
+          "detail": "Push a strong puff of breath out with the release!"
+        }
+      ],
+      "articulation": {
+        "voicing": "Voiceless (vocal cords stay open and silent)",
+        "place": "Post-alveolar / Laminal Palato-alveolar (চ-বর্গ · 2nd Column)",
+        "manner": "Aspirated Affricate (মহাপ্রাণ ঘৃষ্ট ধ্বনি)",
+        "airflow": "Oral, central, high-pressure burst (ʰ)"
+      },
+      "word_breakdown": [
+        {
+          "grapheme": "ছ",
+          "ipa": "/t͡ʃʰ/",
+          "role": "Onset (Aspirated Affricate)",
+          "note": "Full affricate closure released with a strong puff of air."
+        },
+        {
+          "grapheme": "া",
+          "ipa": "/a/",
+          "role": "Nucleus ( আ-কার Matra)",
+          "note": "Vertical vowel sign following ছ that shifts the inherent vowel to open /a/."
+        },
+        {
+          "grapheme": "ত",
+          "ipa": "/t̪/",
+          "role": "Second Syllable Onset (Dental Plosive)",
+          "note": "Tongue tip touches the back of the upper front teeth (marked by the under-bridge in /t̪/) with zero aspiration."
+        },
+        {
+          "grapheme": "া",
+          "ipa": "/a/",
+          "role": "Second Syllable Nucleus ( আ-কার Matra)",
+          "note": "Ends the word on an open, relaxed /a/ vowel."
+        }
+      ],
+      "mouth_placement_steps": [
+        "Flatten the blade of the tongue (just behind the tip) and press it firmly against the post-alveolar ridge (the bumpy roof of the mouth just behind the upper teeth).",
+        "Keep the vocal cords completely relaxed and open (no throat vibration) while building air pressure behind the tongue seal.",
+        "Pull the tongue slightly back into a narrow groove to release the built-up air as a sharp '/t͡ʃ/' ('ch' sound) fused with an immediate, audible gust of breath ('ʰ')."
+      ],
+      "coaching_game": {
+        "title": "The Paper Umbrella Puff Test",
+        "setup": "Hold a lightweight strip of tissue paper (our 'paper umbrella') 2 inches in front of your child's lips.",
+        "action": "Have your child say /t͡ʃʰ/ and then the full word ছাতা (/t͡ʃʰat̪a/).",
+        "success_cue": "On the very first sound /t͡ʃʰ/, the tissue strip should visibly leap forward from the burst of air (ʰ), then settle completely still during the second syllable /t̪a/!"
+      },
+      "common_pitfalls": [
+        {
+          "issue": "Dropping the Aspiration Burst (ʰ)",
+          "fix": "English speakers naturally aspirate initial 'ch' lightly, which makes it easy to under-emphasize Bengali /t͡ʃʰ/. Exaggerate the puff of air so the child feels the cool wind on the back of their hand."
+        },
+        {
+          "issue": "Sliding into a Pure Fricative [s] or [ʃ]",
+          "fix": "In fast or regional speech, the initial stop closure /t/ in /t͡ʃʰ/ is sometimes skipped, turning ছাতা into [sat̪a]. Remind the learner that the tongue must first seal the roof of the mouth completely (the 't' in /t͡ʃʰ/) before releasing the air."
+        },
+        {
+          "issue": "Using an English Alveolar /t/ on the Second Syllable (/t̪a/)",
+          "fix": "Watch the dental bridge in /t͡ʃʰat̪a/! After the post-alveolar /t͡ʃʰ/, the tongue tip must move forward to touch the upper front teeth for /t̪/, keeping it crisp and unaspirated."
+        }
+      ]
+    }
+  ]
+}

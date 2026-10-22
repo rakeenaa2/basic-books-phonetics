@@ -1,0 +1,24 @@
+# Cursor Rules — Basic Books Phonetics (Fun In Phonetics LLC)
+
+You are working in the `basic-books-phonetics` repository owned by **Fun In Phonetics LLC** (Proprietary License — All Rights Reserved). Always read and follow `AI_INSTRUCTIONS.md` at the repository root.
+
+## Core Rules
+
+1. **Project Boundaries**
+   - This repository is strictly for **Typst printable phonetic book sets** (`<language>-ipa-basic/`).
+   - Keep all work separate from the `phonetics-of-languages` HTML guide project. Do not introduce HTML/CSS/JS web apps or reference files outside this repository.
+
+2. **Single Source of Truth (`data/<language>-letters.json`)**
+   - Store all linguistic, phonetic, and pedagogical content in `data/<language>-letters.json`.
+   - Both `childrens-book.typ` (Landscape A5) and `parents-guide.typ` (Portrait A4) must dynamically render from this shared JSON file.
+   - Keep visual tokens, font stacks, and reusable UI primitives (`neo-card`, `pill-badge`, `ipa-hero-badge`, `bn`, `ipa-text`) in `shared/theme.typ`.
+
+3. **IPA & Phonetic Rigor**
+   - Give primary visual and pedagogical weight to **International Phonetic Alphabet (IPA)** notation rather than English romanization.
+   - Preserve exact Unicode IPA codepoints: tie-bar `t͡ʃ` (`U+0361`), dental bridge `t̪` (`U+032A`), aspiration `ʰ` (`U+02B0`), breathy voice `ʱ` (`U+02B1`).
+   - Color-code phonetic features consistently using `palette.ipa-base`, `palette.ipa-puff`, and `palette.ipa-dental`.
+
+4. **Verification & Git Hygiene**
+   - Validate `.typ` or `.json` edits by running `typst compile childrens-book.typ` and `typst compile parents-guide.typ` inside the target `<language>-ipa-basic/` directory.
+   - Never commit compiled `.pdf` files.
+   - Preserve the proprietary copyright notice (`Copyright (c) 2026 Fun In Phonetics LLC. All rights reserved.`).
