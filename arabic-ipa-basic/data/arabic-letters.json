@@ -18,7 +18,7 @@
       "symbol": "ˤ",
       "name": "Pharyngealization (Tafkhīm)",
       "kid_cue": "Deep Hollow-Spoon Tongue",
-      "kid_desc": "Scoop the middle of your tongue down like a spoon and pull the back of your tongue deep so the hiss booms!",
+      "kid_desc": "Scoop your tongue down like a deep spoon and pull the back toward your throat so the hiss booms!",
       "parent_desc": "Superscript [ˤ] (U+02E4) marks secondary pharyngeal/upper-uvular tongue-root retraction that lowers F2 resonance."
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "symbol": "a",
-      "name": "Open Vowel (Emphatic Backed)",
+      "name": "Open Backed Vowel",
       "kid_cue": "Warm Open 'Ah'",
       "kid_desc": "Drop your jaw gently to end the word on a clear, sunny 'ah' sound!",
       "parent_desc": "Short open vowel /a/ (realized as backed [ɑ] next to emphatic consonants like /sˤ/, and central [a] elsewhere)."
@@ -70,7 +70,7 @@
       ],
       "articulation": {
         "voicing": "Voiceless (vocal cords remain open and unvibrating)",
-        "place": "Denti-alveolar primary groove + Pharyngealized (velar-pharyngeal) secondary retraction",
+        "place": "Denti-alveolar primary groove + Pharyngealized secondary retraction",
         "manner": "Emphatic / Pharyngealized Sibilant Fricative (تفخيم / إطباق)",
         "airflow": "Oral, central high-velocity sibilant jet resonating across a concave dorsal cavity"
       },
@@ -79,7 +79,7 @@
           "grapheme": "صُ",
           "ipa": "/sˤ/",
           "role": "Onset (Emphatic Sibilant + Ḍamma)",
-          "note": "Initial form of ص with a concave tongue dorsum and retracted root (ˤ), followed by short lip-rounding transition."
+          "note": "Initial form of ص with a concave tongue dorsum and retracted root (ˤ) plus lip-rounding transition."
         },
         {
           "grapheme": "و",
@@ -91,12 +91,12 @@
           "grapheme": "رَ",
           "ipa": "/r/",
           "role": "Second Syllable Onset (Alveolar Tap/Trill)",
-          "note": "Crisp apical alveolar tap/trill /r/ (never an English retroflex approximant [ɹ]), carrying a fatḥa vowel sign."
+          "note": "Crisp apical alveolar tap/trill /r/ (never an English retroflex approximant [ɹ]), carrying fatḥa."
         },
         {
           "grapheme": "ة",
           "ipa": "/a/",
-          "role": "Second Syllable Nucleus (Tāʾ Marbūṭa in Pause)",
+          "role": "Second Syllable Nucleus (Tāʾ Marbūṭa)",
           "note": "In standard pausal pronunciation (and everyday kid speech), final ة opens into a clear, relaxed /a/."
         }
       ],
@@ -106,10 +106,10 @@
         "Keep the lips neutral (avoid rounding them into a 'w' shape for the consonant itself) and drive a steady, voiceless airstream through the groove to produce the dark, low-pitched emphatic '/sˤ/'."
       ],
       "coaching_game": {
-        "title": "The Tiny Snake vs. Giant Cave Echo Game",
+        "title": "The Snake vs. Cave Echo Game",
         "setup": "Draw a small flat snake for plain س (/s/) and a big hollow cave for emphatic ص (/sˤ/).",
-        "action": "Have your child hiss like a flat 'tiny snake' ('sa-sa-sa' /sa/) with a smiling mouth, then hollow their tongue down like a big spoon to make the 'giant cave hiss' ('ṢA-ṢA-ṢA' [sˤɑ]) before saying صُورَة (/sˤuːra/)!",
-        "success_cue": "You should hear the pitch of the hiss drop noticeably lower on /sˤ/—and if they put 'ah' after it, it automatically sounds like deep 'saw/father' [sˤɑ] rather than flat 'sat' [sæ]!"
+        "action": "Have your child hiss like a flat 'tiny snake' ('sa-sa' /sa/) with a smiling mouth, then hollow their tongue like a spoon for the 'giant cave hiss' ('ṢA-ṢA' [sˤɑ]) before saying صُورَة (/sˤuːra/)!",
+        "success_cue": "You should hear the hiss pitch drop noticeably lower on /sˤ/—and 'ah' after it sounds like deep 'saw' [sˤɑ] rather than flat 'sat' [sæ]!"
       },
       "common_pitfalls": [
         {

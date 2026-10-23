@@ -37,8 +37,8 @@ Typst automatically uses macOS system fonts (`Geeza Pro`, `Damascus`, `Avenir Ne
 ### 3. Build Both Books
 Run from the `arabic-ipa-basic/` directory:
 ```bash
-typst compile childrens-book.typ arabic-ipa-childrens-book.pdf
-typst compile parents-guide.typ arabic-ipa-parents-guide.pdf
+typst compile childrens-book.typ arabic-ipa-childrens-book-pilot.pdf
+typst compile parents-guide.typ arabic-ipa-parents-guide-pilot.pdf
 ```
 
 For live-reload preview while editing colors or text:

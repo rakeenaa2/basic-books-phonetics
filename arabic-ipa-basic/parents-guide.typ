@@ -162,10 +162,10 @@
 // PAGE 2: SECTION 3 — DEEP-DIVE COACHING SPREAD FOR 'ص' (/sˤ/)
 // ============================================================================
 #text(size: 14pt, weight: "bold", fill: palette.ink)[3. Letter-by-Letter Coaching Deep Dive: #ar(entry.letter) (`/`#ipa-text(entry.ipa, size: 13pt)`/`)]
-#v(6pt)
+#v(5pt)
 
 // Top Summary Card
-#neo-card(bg: palette.cons-bg.lighten(35%), inset: 12pt, radius: 14pt)[
+#neo-card(bg: palette.cons-bg.lighten(35%), inset: 11pt, radius: 14pt)[
   #grid(
     columns: (auto, auto, 1fr),
     gutter: 14pt,
@@ -182,7 +182,7 @@
     [
       #grid(
         columns: (auto, 1fr),
-        gutter: 6pt,
+        gutter: 5pt,
         [*Voicing:*], [#entry.articulation.voicing],
         [*Place:*], [#entry.articulation.place],
         [*Manner:*], [#entry.articulation.manner],
@@ -192,16 +192,16 @@
   )
 ]
 
-#v(10pt)
+#v(8pt)
 
 // Two-Column Coaching Guide: Mouth Placement + Tactile Game
 #grid(
   columns: (1.15fr, 0.95fr),
   gutter: 12pt,
   // Left: Step-by-Step Vocal Tract Placement
-  neo-card(bg: white, inset: 12pt, radius: 14pt)[
+  neo-card(bg: white, inset: 11pt, radius: 14pt)[
     #pill-badge("MOUTH & TONGUE PLACEMENT", bg: palette.ipa-base, fg: white, size: 8pt)
-    #v(6pt)
+    #v(5pt)
     #for (idx, step) in entry.mouth_placement_steps.enumerate() [
       #grid(
         columns: (20pt, 1fr),
@@ -220,9 +220,9 @@
   ],
 
   // Right: Tactile Game for Kids
-  neo-card(bg: palette.vowel-bg.lighten(25%), inset: 12pt, radius: 14pt)[
+  neo-card(bg: palette.vowel-bg.lighten(25%), inset: 11pt, radius: 14pt)[
     #pill-badge("TACTILE COACHING GAME FOR KIDS", bg: palette.ipa-puff, fg: white, size: 8pt)
-    #v(6pt)
+    #v(5pt)
     #text(size: 11pt, weight: "bold")[#entry.coaching_game.title]
     #v(4pt)
     #text(size: 9pt)[*Setup:* #entry.coaching_game.setup]
@@ -239,10 +239,10 @@
   ]
 )
 
-#v(10pt)
+#v(8pt)
 
 // Phonemic Anatomy of the Example Word: صُورَة (/sˤuːra/)
-#neo-card(bg: palette.soft-card, inset: 12pt, radius: 14pt)[
+#neo-card(bg: palette.soft-card, inset: 11pt, radius: 14pt)[
   #grid(
     columns: (1fr, auto),
     align: horizon,
@@ -251,18 +251,18 @@
     ],
     pill-badge("SYLLABLES: /sˤuː/ + /ra/", bg: palette.ink, fg: white, size: 8pt)
   )
-  #v(6pt)
+  #v(5pt)
   #table(
-    columns: (55pt, 65pt, 160pt, 1fr),
+    columns: (50pt, 60pt, 165pt, 1fr),
     stroke: 1pt + palette.ink.lighten(30%),
-    inset: 6pt,
+    inset: 5.5pt,
     fill: (x, y) => if y == 0 { palette.ink } else { white },
     text(fill: white, weight: "bold", size: 8pt)[Letter],
     text(fill: white, weight: "bold", size: 8pt)[IPA],
     text(fill: white, weight: "bold", size: 8pt)[Phonetic Role],
     text(fill: white, weight: "bold", size: 8pt)[Parent Coaching Note],
     ..entry.word_breakdown.map(seg => (
-      align(center)[#ar(seg.grapheme, size: 13pt)],
+      align(center)[#ar(seg.grapheme, size: 12.5pt)],
       align(center)[#ipa-text(seg.ipa, size: 10pt, fill: palette.river)],
       text(size: 8.5pt, weight: "bold")[#seg.role],
       text(size: 8.5pt)[#seg.note],
@@ -270,16 +270,16 @@
   )
 ]
 
-#v(10pt)
+#v(8pt)
 
 // Common Pitfalls & Interference Fixes
-#neo-card(bg: palette.spec-bg.lighten(45%), inset: 12pt, radius: 14pt)[
+#neo-card(bg: palette.spec-bg.lighten(45%), inset: 11pt, radius: 14pt)[
   #pill-badge("COMMON PRONUNCIATION PITFALLS & FIXES", bg: palette.spec-accent, fg: white, size: 8pt)
-  #v(6pt)
+  #v(5pt)
   #for pitfall in entry.common_pitfalls [
-    #text(size: 9.2pt, weight: "bold", fill: palette.spec-accent)[• #pitfall.issue:]
+    #text(size: 9pt, weight: "bold", fill: palette.spec-accent)[• #pitfall.issue:]
     #h(4pt)
-    #text(size: 8.8pt)[#pitfall.fix]
-    #v(3pt)
+    #text(size: 8.6pt)[#pitfall.fix]
+    #v(2.5pt)
   ]
 ]
