@@ -1,0 +1,5 @@
+# Arabic Contrastive Phonetic Phenomena (`العربية`)
+
+- **Pharyngealization / Emphasis (Plain vs. Emphatic *Mufakhkham* Coronals):** Denti-alveolar consonants contrast between plain (*muraqqaq*) and pharyngealized/velarized (*mufakhkham*, `ˤ`) counterparts (e.g., س `/s/`, د `/d/`, ت `/t/`, ذ `/ð/` vs. ص `/sˤ/`, ض `/dˤ/`, ط `/tˤ/`, ظ `/ðˤ/` — سَيْف `/sajf/` 'sword' vs. صَيْف `/sˤajf/` 'summer', or تِين `/tiːn/` 'figs' vs. طِين `/tˤiːn/` 'clay').
+- **Consonant & Vowel Length (Gemination & Long Vowels):** Both consonants (marked by *shaddah* `ّ`, `/ː/`) and the three vowel qualities (`/a, i, u/` vs. `/aː, iː, uː/`) contrast phonemically by duration (e.g., دَرَسَ `/darasa/` 'he studied' vs. دَرَّسَ `/darːasa/` 'he taught', and جَمَل `/d͡ʒamal/` 'camel' vs. جَمَال `/d͡ʒamaːl/` 'beauty').
+- **Back-Tract Place of Articulation (Velar, Uvular, Pharyngeal, Glottal):** Post-palatal consonants contrast across velar, uvular, pharyngeal, and glottal places of articulation (e.g., ك `/k/` vs. ق `/q/` — كَلْب `/kalb/` 'dog' vs. قَلْب `/qalb/` 'heart', and هـ `/h/` vs. ح `/ħ/` vs. خ `/x/` — هَامَ `/haːma/` 'he wandered' vs. حَامَ `/ħaːma/` 'he hovered').

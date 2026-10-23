@@ -16,6 +16,10 @@ Each language book set lives in its own `<language>-ipa-basic/` directory:
 basic-books-phonetics/
 ├── AI_INSTRUCTIONS.md
 ├── .cursorrules
+├── .rules/
+│   ├── arabic.md                    # Arabic contrastive phonetic phenomena
+│   ├── bengali.md                   # Bengali contrastive phonetic phenomena
+│   └── ukrainian.md                 # Ukrainian contrastive phonetic phenomena
 ├── LICENSE
 ├── README.md
 └── <language>-ipa-basic/
@@ -50,13 +54,19 @@ basic-books-phonetics/
 ## 4. Linguistic & Phonetic Standards
 
 - **IPA First:** Always prioritize exact **International Phonetic Alphabet (IPA)** transcriptions over ad-hoc English romanization.
+- **Per-Language Contrastive Phenomena (`.rules/<language>.md`):**
+  - Before creating or modifying any `<language>-ipa-basic/` dataset or template, read and enforce its corresponding rule file in `.rules/`:
+    - Arabic (`arabic-ipa-basic/`): `.rules/arabic.md`
+    - Bengali (`bengali-ipa-basic/`): `.rules/bengali.md`
+    - Ukrainian (`ukrainian-ipa-basic/`): `.rules/ukrainian.md`
+  - Preserve the contrastive minimal-pair distinctions, native script spellings, and phonemic categories documented in each language's `.rules/<language>.md` file.
 - **Unicode Accuracy:**
-  - Use proper Unicode combining characters for IPA diacritics: tie-bar `t͡ʃ` (`U+0361`), dental bridge `t̪` (`U+032A`), aspiration `ʰ` (`U+02B0`), breathy voice `ʱ` (`U+02B1`).
+  - Use proper Unicode combining characters and modifiers for IPA diacritics: tie-bar `t͡ʃ` (`U+0361`), dental bridge `t̪` (`U+032A`), aspiration `ʰ` (`U+02B0`), breathy voice `ʱ` (`U+02B1`), pharyngealization `ˤ` (`U+02E4`), palatalization `ʲ` (`U+02B2`), length mark `ː` (`U+02D0`), nasalization tilde `̃` (`U+0303`), and primary stress `ˈ` (`U+02C8`).
   - Delimit phonemic transcriptions with `/ /` and phonetic realizations with `[ ]`.
 - **Feature Color-Coding (`shared/theme.typ`):**
   - `palette.ipa-base`: Base articulation / tongue closure and release.
-  - `palette.ipa-puff`: Aspiration burst (`ʰ`).
-  - `palette.ipa-dental`: Dental placement (`̪`).
+  - `palette.ipa-puff`: Aspiration burst (`ʰ`) or secondary articulation modifier (`ˤ`, `t͡ʃ`).
+  - `palette.ipa-dental`: Dental placement (`̪`) or secondary coronal/stop highlight.
 
 ---
 
