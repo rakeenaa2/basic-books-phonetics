@@ -15,7 +15,7 @@ You are working in the `basic-books-phonetics` repository owned by **Fun In Phon
 
 3. **IPA & Phonetic Rigor**
    - Give primary visual and pedagogical weight to **International Phonetic Alphabet (IPA)** notation rather than English romanization.
-   - Read and enforce the per-language contrastive phenomena files in `.rules/` (`.rules/arabic.md`, `.rules/bengali.md`, `.rules/ukrainian.md`) whenever editing `<language>-ipa-basic/`, preserving their phonemic contrasts, native script spellings, and minimal-pair distinctions.
+   - Read and enforce the per-language contrastive phenomena files in `.rules/` (`.rules/arabic.md`, `.rules/bengali.md`, `.rules/nepali.md`, `.rules/ukrainian.md`) whenever editing `<language>-ipa-basic/`, preserving their phonemic contrasts, native script spellings, and minimal-pair distinctions.
    - Preserve exact Unicode IPA codepoints: tie-bar `t͡ʃ` (`U+0361`), dental bridge `t̪` (`U+032A`), aspiration `ʰ` (`U+02B0`), breathy voice `ʱ` (`U+02B1`), pharyngealization `ˤ` (`U+02E4`), palatalization `ʲ` (`U+02B2`), length mark `ː` (`U+02D0`), nasalization tilde `̃` (`U+0303`), and primary stress `ˈ` (`U+02C8`).
    - Color-code phonetic features consistently using `palette.ipa-base`, `palette.ipa-puff`, and `palette.ipa-dental`.
 

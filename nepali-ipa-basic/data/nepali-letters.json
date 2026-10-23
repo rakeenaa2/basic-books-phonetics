@@ -1,0 +1,130 @@
+{
+  "book_meta": {
+    "title_bn": "नेपाली वर्णमाला",
+    "subtitle_child": "My First Nepali IPA Sound Book",
+    "subtitle_parent": "Parents' Articulatory Phonetics & Coaching Guide",
+    "dialect": "Standard Nepali (Kathmandu Valley)",
+    "pilot_focus": "छ (/t͡sʰ/)"
+  },
+  "ipa_key": [
+    {
+      "symbol": "t͡s",
+      "name": "Tied Denti-Alveolar Affricate",
+      "kid_cue": "Stop + Hiss Joined Together",
+      "kid_desc": "Start with your tongue tip stopping the air behind your top teeth, then slide straight into a crisp 'ts' bee-buzz hiss!",
+      "parent_desc": "The tie-bar above /t͡s/ links /t/ (denti-alveolar stop closure) and /s/ (sibilant release) into one single Nepali affricate sound."
+    },
+    {
+      "symbol": "ʰ",
+      "name": "Aspiration (Mahaprana)",
+      "kid_cue": "Big Puff of Air!",
+      "kid_desc": "Blow a strong gust of mountain wind out of your mouth right as the sound pops!",
+      "parent_desc": "Superscript [ʰ] marks a strong voiceless burst of air immediately following the release of the affricate."
+    },
+    {
+      "symbol": "t̪",
+      "name": "Dental Stop",
+      "kid_cue": "Tongue Touches Teeth",
+      "kid_desc": "Press the flat tip of your tongue gently against the back of your top front teeth.",
+      "parent_desc": "The bridge diacritic beneath /t̪/ means the tongue tip touches the upper front teeth, unlike English alveolar /t/."
+    },
+    {
+      "symbol": "a",
+      "name": "Open Central Vowel",
+      "kid_cue": "Wide Open Mouth 'Ah'",
+      "kid_desc": "Open your mouth wide like a yawn and say a bright 'aaah'!",
+      "parent_desc": "An open central unrounded vowel (आ / ा), fuller and more open than the inherent mid vowel अ (/ʌ/)."
+    }
+  ],
+  "letters": [
+    {
+      "id": "chha",
+      "letter": "छ",
+      "category": "cons",
+      "category_label_bn": "व्यञ्जनवर्ण",
+      "category_label_en": "Consonant · Mahaprana (Aspirated)",
+      "ipa": "t͡sʰ",
+      "ipa_base": "t͡s",
+      "ipa_modifier": "ʰ",
+      "word": "छाता",
+      "word_ipa": "t͡sʰat̪a",
+      "word_syllables_ipa": ["t͡sʰa", "t̪a"],
+      "gloss": "Umbrella",
+      "emoji": "☂️",
+      "sound_recipe": [
+        {
+          "part": "t",
+          "label": "1. Tongue Tip Seal",
+          "detail": "Press your tongue tip right behind the upper front teeth to block the air completely."
+        },
+        {
+          "part": "t͡s",
+          "label": "2. Tied Hissing Release",
+          "detail": "Release the seal into a crisp 'ts' sibilant groove (linked by the top tie-bar)."
+        },
+        {
+          "part": "ʰ",
+          "label": "3. Big Wind Burst",
+          "detail": "Push a strong puff of breath out together with the 'ts' release!"
+        }
+      ],
+      "articulation": {
+        "voicing": "Voiceless (vocal cords stay wide open and silent)",
+        "place": "Denti-alveolar (च-वर्ग · 2nd Column)",
+        "manner": "Aspirated Affricate (महाप्राण स्पर्श-संघर्षी)",
+        "airflow": "Oral, central sibilant groove with high-pressure burst (ʰ)"
+      },
+      "word_breakdown": [
+        {
+          "grapheme": "छ",
+          "ipa": "/t͡sʰ/",
+          "role": "Onset (Aspirated Affricate)",
+          "note": "Denti-alveolar stop closure released into a sharp sibilant with a strong puff of air."
+        },
+        {
+          "grapheme": "ा",
+          "ipa": "/a/",
+          "role": "Nucleus (आ-कार Matra)",
+          "note": "Vertical vowel sign following छ that shifts the inherent vowel /ʌ/ to open /a/."
+        },
+        {
+          "grapheme": "त",
+          "ipa": "/t̪/",
+          "role": "Second Syllable Onset (Dental Plosive)",
+          "note": "Tongue tip touches the back of the upper front teeth (marked by the under-bridge in /t̪/) with zero aspiration."
+        },
+        {
+          "grapheme": "ा",
+          "ipa": "/a/",
+          "role": "Second Syllable Nucleus (आ-कार Matra)",
+          "note": "Ends the word on an open, relaxed /a/ vowel."
+        }
+      ],
+      "mouth_placement_steps": [
+        "Place the tip and front blade of the tongue firmly against the denti-alveolar region (right behind the upper front teeth) to form an airtight seal.",
+        "Keep the vocal cords completely open and unvibrating while building air pressure behind the tongue closure.",
+        "Release the tongue tip slightly into a narrow front groove to produce a crisp '/t͡s/' ('ts' as in 'cats') fused with an immediate, forceful gust of breath ('ʰ')."
+      ],
+      "coaching_game": {
+        "title": "The Paper Umbrella Puff Test",
+        "setup": "Hold a lightweight strip of tissue paper (our 'paper umbrella') 2 inches in front of your child's lips.",
+        "action": "Have your child say /t͡sʰ/ and then the full word छाता (/t͡sʰat̪a/).",
+        "success_cue": "On the very first sound /t͡sʰ/, the tissue strip should visibly leap forward from the burst of air (ʰ), then stay completely still during the unaspirated second syllable /t̪a/!"
+      },
+      "common_pitfalls": [
+        {
+          "issue": "Using an English Postalveolar 'Ch' [t͡ʃ] Instead of Nepali Denti-Alveolar /t͡sʰ/",
+          "fix": "Romanization writes छ as 'chha', tempting English speakers to use the 'ch' in 'church' ([t͡ʃ]). In Standard Nepali, the च-series is produced further forward at the teeth ridge with a 'ts' release (/t͡sʰ/). Cue the child with the end of 'cats' + a big puff of air!"
+        },
+        {
+          "issue": "Dropping the Aspiration Burst (ʰ) and Merging छ (/t͡sʰ/) with च (/t͡s/)",
+          "fix": "Nepali strictly contrasts unaspirated च (/t͡s/) and aspirated छ (/t͡sʰ/) (e.g., चार /t͡sar/ 'four' vs. छार /t͡sʰar/ 'ash'). Have the child feel a cool gust of wind on the back of their hand when pronouncing छ."
+        },
+        {
+          "issue": "Using an English Alveolar [tʰ] on the Second Syllable (/t̪a/)",
+          "fix": "Watch the dental bridge in /t͡sʰat̪a/! For त (/t̪/), the tongue tip must touch the back of the upper front teeth with zero puff of air—saving all the wind for the opening छ (/t͡sʰ/)."
+        }
+      ]
+    }
+  ]
+}

@@ -19,6 +19,7 @@ basic-books-phonetics/
 ├── .rules/
 │   ├── arabic.md                    # Arabic contrastive phonetic phenomena
 │   ├── bengali.md                   # Bengali contrastive phonetic phenomena
+│   ├── nepali.md                    # Nepali contrastive phonetic phenomena
 │   └── ukrainian.md                 # Ukrainian contrastive phonetic phenomena
 ├── LICENSE
 ├── README.md
@@ -58,6 +59,7 @@ basic-books-phonetics/
   - Before creating or modifying any `<language>-ipa-basic/` dataset or template, read and enforce its corresponding rule file in `.rules/`:
     - Arabic (`arabic-ipa-basic/`): `.rules/arabic.md`
     - Bengali (`bengali-ipa-basic/`): `.rules/bengali.md`
+    - Nepali (`nepali-ipa-basic/`): `.rules/nepali.md`
     - Ukrainian (`ukrainian-ipa-basic/`): `.rules/ukrainian.md`
   - Preserve the contrastive minimal-pair distinctions, native script spellings, and phonemic categories documented in each language's `.rules/<language>.md` file.
 - **Unicode Accuracy:**

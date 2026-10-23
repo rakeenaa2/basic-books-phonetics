@@ -1,0 +1,5 @@
+# Nepali Contrastive Phonetic Phenomena (`नेपाली`)
+
+- **Aspiration & Voicing (Four-way stop and denti-alveolar affricate contrast):** Stops and affricates contrast across voiceless unaspirated, voiceless aspirated, voiced unaspirated, and voiced aspirated (breathy) series—including the denti-alveolar affricate series চ-বর্গ realized as `/t͡s, t͡sʰ, d͡z, d͡zʱ/` (e.g., च `/t͡s/`, छ `/t͡sʰ/`, ज `/d͡z/`, झ `/d͡zʱ/` — चार `/t͡sar/` 'four' vs. छार `/t͡sʰar/` 'ash/dust' vs. जार `/d͡zar/` 'rival/jar', and क `/k/`, ख `/kʰ/`, ग `/ɡ/`, घ `/ɡʱ/` — काम `/kam/` 'work' vs. खाम `/kʰam/` 'envelope' vs. घाम `/ɡʱam/` 'sunshine').
+- **Place of Articulation (Dental vs. Retroflex):** Coronal stops contrast between dental and retroflex places of articulation (e.g., त `/t̪/`, थ `/t̪ʰ/`, द `/d̪/`, ध `/d̪ʱ/` vs. ट `/ʈ/`, ठ `/ʈʰ/`, ड `/ɖ/`, ढ `/ɖʱ/` — ताल `/t̪al/` 'lake/rhythm' vs. टाल `/ʈal/` 'patch/heap', or सात `/sat̪/` 'seven' vs. साट `/saʈ/` 'exchange').
+- **Vowel Nasalization:** Oral vowels contrast phonemically with their nasalized counterparts marked by *chandrabindu* (`ँ`, `/̃/`) (e.g., बास `/bas/` 'lodging/shelter' vs. बाँस `/bãs/` 'bamboo', or काँध `/kãd̪ʱ/` 'shoulder').
